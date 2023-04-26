@@ -1,5 +1,6 @@
 package com.liljagty.riseanddine;
 
+import com.liljagty.riseanddine.common.registry.RiseAndDineItems;
 import com.liljagty.riseanddine.platform.Services;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Items;
@@ -27,5 +28,7 @@ public class CommonClass {
 
             Constants.LOG.info("Hello to riseanddine");
         }
+        RiseAndDineItems.init();
     }
+
 }

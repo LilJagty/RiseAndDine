@@ -1,6 +1,8 @@
 package com.liljagty.riseanddine;
 
+import com.liljagty.riseanddine.platform.ForgeRegistryHelper;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(Constants.MOD_ID)
 public class RiseAndDine {
@@ -14,6 +16,7 @@ public class RiseAndDine {
         // Use Forge to bootstrap the Common mod.
         Constants.LOG.info("Hello Forge world!");
         CommonClass.init();
+        ForgeRegistryHelper.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         
     }
 }
