@@ -1,8 +1,8 @@
-package com.example.examplemod;
+package com.liljagty.riseanddine;
 
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleMod implements ModInitializer {
+public class RiseAndDine implements ModInitializer {
     
     @Override
     public void onInitialize() {

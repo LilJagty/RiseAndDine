@@ -1,7 +1,7 @@
-package com.example.examplemod.platform;
+package com.liljagty.riseanddine.platform;
 
-import com.example.examplemod.Constants;
-import com.example.examplemod.platform.services.IPlatformHelper;
+import com.liljagty.riseanddine.Constants;
+import com.liljagty.riseanddine.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 
